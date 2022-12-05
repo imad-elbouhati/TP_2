@@ -4,22 +4,18 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
-    <Button
+
+    <EditText
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:hint="@string/mot_de_passe" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
         android:text="OK" />
 
-    <Button
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Annuler" />
-
-    <Button
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Annuler tout" />
 
 </LinearLayout>
